@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from '../ContactList/ContactList.module.css';
 
 const Contact = ({ contact, onDeleteContact }) => (

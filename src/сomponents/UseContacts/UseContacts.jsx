@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const useContacts = (initialContacts) => {
+const UseContacts = (initialContacts) => {
   const [contacts, setContacts] = useState(() => {
     const savedContacts = localStorage.getItem('contacts');
     return savedContacts ? JSON.parse(savedContacts) : initialContacts;
@@ -21,4 +21,4 @@ const useContacts = (initialContacts) => {
   return { contacts, addContact, deleteContact };
 };
 
-export default useContacts;
+export default UseContacts;
