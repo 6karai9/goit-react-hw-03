@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import ContactForm from './Components/ContactForm/ContactForm';
-import SearchBox from './Components/SearchBox/SearchBox';
-import ContactList from './Components/ContactList/ContactList';
-import UseContacts from './Components/UseContacts/UseContacts';
+import ContactForm from './сomponents/ContactForm/ContactForm';
+import SearchBox from './сomponents/SearchBox/SearchBox';
+import ContactList from './сomponents/ContactList/ContactList';
+import UseContacts from './сomponents/UseContacts/UseContacts';
 
 const initialContacts = [
   { id: 'id-1', name: 'Rosie Simpson', number: '459-12-56' },
